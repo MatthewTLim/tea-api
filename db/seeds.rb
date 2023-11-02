@@ -30,9 +30,9 @@ end
     address: Faker::Address.full_address
   )
 
-  subscription_duration = [1, 3, 6, 12].sample # Random subscription duration
+  subscription_duration = [1, 3, 6, 12].sample
 
-  subscription = Subscription.create(
+  subscriptions = Subscription.create(
     title: "#{subscription_duration}-month subscription",
     price: calculate_subscription_price(subscription_duration),
     status: [true, false].sample,
@@ -52,9 +52,11 @@ end
     num_teas = 0
   end
 
-  Tea.all.sample(num_teas).each do |tea|
-    subscription.teas << tea
+  teas = Tea.all.sample(num_teas)
+
+  teas.each do |tea|
+    subscriptions.teas << tea
   end
 
-  customer.subscription = subscription
+  customer.subscriptions << subscriptions
 end

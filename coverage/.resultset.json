@@ -1,0 +1,524 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/matt/4turing/projects/take-home/tea-api/config/environment.rb": {
+        "lines": [
+          null,
+          1,
+          null,
+          null,
+          1
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/config/application.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/config/boot.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/config/environments/test.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/config/initializers/cors.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/config/initializers/filter_parameter_logging.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/config/initializers/inflections.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/spec/factories/customers.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/spec/factories/subscription_teas.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/spec/factories/subscriptions.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/spec/factories/teas.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/config/routes.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/app/controllers/customers_controller.rb": {
+        "lines": [
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/spec/controllers/subscription_controller_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          4,
+          null,
+          null,
+          null,
+          4,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/app/controllers/subscriptions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          5,
+          5,
+          5,
+          5,
+          null,
+          5,
+          5,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          5,
+          null,
+          null,
+          1,
+          5,
+          null,
+          5,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          5,
+          5,
+          null,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/spec/models/customer_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/app/models/customer.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/spec/models/subscription_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/app/models/subscription.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/spec/models/subscription_tea_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/app/models/subscription_tea.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/spec/models/tea_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          null
+        ]
+      },
+      "/Users/matt/4turing/projects/take-home/tea-api/app/models/tea.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1698943860
+  }
+}
