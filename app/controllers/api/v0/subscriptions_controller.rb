@@ -1,4 +1,4 @@
-class SubscriptionsController < ApplicationController
+class Api::V0::SubscriptionsController < ApplicationController
   def index
     @customer = Customer.find(params[:customer_id])
     @subscriptions = @customer.subscriptions
@@ -18,7 +18,7 @@ class SubscriptionsController < ApplicationController
     end
   end
 
-  def destroy
+  def update
     @subscription = Subscription.find(params[:id])
     @subscription.update(status: false)
     render json: @subscription, status: :ok
@@ -44,5 +44,27 @@ class SubscriptionsController < ApplicationController
 
     @subscription.title = "#{@subscription.frequency} month subscription"
     @subscription.status = true
+  end
+
+  def set_subscription_tea_quantity
+    case @subscription.frequency
+    when 1
+      num_teas = 3
+    when 3
+      num_teas = 9
+    when 6
+      num_teas = 18
+    when 12
+      num_teas = 36
+    else
+      num_teas = 0
+    end
+
+    @subscription.teas.clear
+
+    num_teas.times do
+      tea = Tea.all.sample
+      @subscription.teas << tea
+    end
   end
 end
